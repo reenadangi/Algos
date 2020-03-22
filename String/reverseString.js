@@ -5,7 +5,7 @@ while(start<=end){
     var temp=s[end];
     s[end]=s[start];
     s[start]=temp;
-    console.log(start)
+    console.log(s)
     start++;
     end--;
    
