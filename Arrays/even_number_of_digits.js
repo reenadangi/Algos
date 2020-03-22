@@ -12,7 +12,7 @@ function findNumbers(nums) {
     for (var i = 0; i < nums.length; i++) {
         var current = nums[i];
         var num = 0;
-        while (current >1) {
+        while (current >=1) {
             num++;
             current = current / 10;
         }
